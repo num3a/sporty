@@ -6,7 +6,7 @@
 meteor-platform
 less
 accounts-password
-useraccounts:bootstrap
+materialize:materialize
 alanning:roles
 zimme:iron-router-active
 cmather:handlebars-server@0.2.0
@@ -23,3 +23,10 @@ yasinuslu:blaze-meta
 aldeed:collection2
 aldeed:autoform
 meteorhacks:kadira
+
+cfs:standard-packages
+cfs:autoform
+cfs:ui
+
+useraccounts:core
+useraccounts:materialize
