@@ -30,3 +30,6 @@ cfs:ui
 
 useraccounts:core
 useraccounts:materialize
+
+sanjo:jasmine
+velocity:html-reporter
