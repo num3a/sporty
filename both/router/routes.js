@@ -9,3 +9,7 @@ Router.route('/dashboard', {
 Router.plugin('ensureSignedIn', {
   only: ['dashboard']
 });
+
+Router.route('/coach/',{
+  name: 'coach'
+});
