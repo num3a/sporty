@@ -1,1 +1,1 @@
-Coach = new Mongo.Collection('coachs');
+Coaches = new Mongo.Collection('coaches');

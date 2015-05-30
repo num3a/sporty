@@ -6,10 +6,11 @@ Router.route('/dashboard', {
   name: 'dashboard'
 });
 
-Router.plugin('ensureSignedIn', {
-  only: ['dashboard']
+Router.route('/coach/:_id',{
+    name: 'coach.detail',
+    controller: 'CoachController',
 });
 
-Router.route('/coach/',{
-  name: 'coach'
+Router.plugin('ensureSignedIn', {
+  only: ['dashboard']
 });
