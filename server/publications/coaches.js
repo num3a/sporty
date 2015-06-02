@@ -3,5 +3,5 @@ Meteor.publish('Coaches.Limit', function(limit){
 });
 
 Meteor.publish("Coaches.ById", function(coachId) {
-    return Coaches.findOne({_id: coachId});
+    return Coaches.find( coachId);
 });
