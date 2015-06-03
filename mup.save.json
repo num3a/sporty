@@ -2,11 +2,12 @@
   // Server authentication info
   "servers": [
     {
-      "host": "52.24.129.100",
-      "username": "ubuntu",
+      "host": "188.166.126.68",
+      "username": "root",
+      "password": "tobeskin",
       // or pem file (ssh based authentication)
       // WARNING: Keys protected by a passphrase are not supported
-      "pem": "test-ec2.pem",
+      //"pem": "~/.ssh/id_rsa"
       // Also, for non-standard ssh port use this
       //"sshOptions": { "port" : 49154 },
       // server specific environment variables
