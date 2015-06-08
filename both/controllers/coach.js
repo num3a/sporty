@@ -3,12 +3,12 @@ CoachController = AppController.extend({
     template: 'Coach',
     path: '/coach/:_id',
     waitOn: function () {
-        return Meteor.subscribe('Coaches.ById');
+        return Meteor.subscribe('Coaches.ById', this.params._id);
     },
 
     data: {
         coach: function() {
-            var result = Coaches.findOne('sCoj4jp5svWHzRn26');
+            var result = Coaches.findOne({});
             console.log('coach data', result);
 
             return result;
