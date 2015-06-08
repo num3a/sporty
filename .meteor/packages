@@ -6,6 +6,7 @@
 meteor-platform
 less
 accounts-password
+
 materialize:materialize
 alanning:roles
 zimme:iron-router-active
@@ -30,3 +31,5 @@ cfs:ui
 
 useraccounts:core
 useraccounts:materialize
+
+matteodem:easy-search

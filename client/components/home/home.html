@@ -26,12 +26,12 @@
             </div>
         </div>
     </div>
-
+    <div>
+        {{> esInput index="coaches" placeholder="Search..." }}
+    </div>
     <div class="collection">
-        {{#each coaches}}
-            {{#linkTo route="coach.detail" class="collection-item"}}
-                {{name}}
-            {{/linkTo}}
-        {{/each}}
+          {{#esEach index="coaches"}}
+            <a href="/coach/{{_id}}" class="collection-item">{{firstName}} {{lastName}}</a>
+        {{/esEach}}
     </div>
 </template>

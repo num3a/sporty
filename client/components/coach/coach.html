@@ -3,7 +3,10 @@
     <h1>test</h1>
     <div>
         {{#with coach}}
-            <h1>{{name}}</h1>
+            <h1>{{firstName}} {{lastName}}</h1>
+            {{#each activity}}
+                <a href="" class="btn disabled">{{this}}</a>
+            {{/each}}
         {{/with}}
     </div>
 

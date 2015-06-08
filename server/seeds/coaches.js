@@ -1,11 +1,14 @@
 Meteor.startup(function() {
 
     Factory.define('coaches', Coaches, {
-        name: function() {
+        firstName: function() {
             return Fake.word();
         },
+        lastName:function(){
+          return Fake.word();
+        },
         activity: function(){
-            var sampleActivies = ['running','cycling', 'fitness', 'streetworkout','yoga'];
+            var sampleActivies = ['running','cycling', 'fitness', 'streetworkout','yoga','crossfit'];
 
             var activies = [];
             _( _.random(1, 5)).times(function(){
