@@ -7,7 +7,7 @@ meteor-platform
 less
 accounts-password
 
-materialize:materialize
+
 alanning:roles
 zimme:iron-router-active
 cmather:handlebars-server@0.2.0
@@ -30,6 +30,8 @@ cfs:autoform
 cfs:ui
 
 useraccounts:core
-useraccounts:materialize
+useraccounts:bootstrap
 
 matteodem:easy-search
+
+fezvrasta:bootstrap-material-design

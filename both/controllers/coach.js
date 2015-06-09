@@ -1,6 +1,6 @@
 CoachController = AppController.extend({
 
-    template: 'Coach',
+    template: 'coach',
     path: '/coach/:_id',
     waitOn: function () {
         return Meteor.subscribe('Coaches.ById', this.params._id);
@@ -15,7 +15,7 @@ CoachController = AppController.extend({
         }
     },
     action: function () {
-        this.render('Coach');
+        this.render('coach');
     }
 });
 

@@ -13,5 +13,8 @@ Router.route('/coach/:_id',{
 
 
 Router.plugin('ensureSignedIn', {
-  only: ['dashboard']
+  only: [
+    'dashboard',
+    'coach.detail'
+  ]
 });

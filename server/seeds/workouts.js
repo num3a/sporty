@@ -1,18 +1,21 @@
 Meteor.startup(function() {
 
+
   Factory.define('workouts', Workouts, {
-    
-    activity : function(){
-        var coach = Coaches.findOne({});
-        
-        return coach.activity[0];
-    },
+
+      coachId: function(){
+          return Coaches.findOne()._id;
+      },
+    activity : 'running',
     
     beginDate : function(){
-        
+        return new moment().add(_.random(1, 15), 'days').format();
     },
     endDate : function(){
-        
+        return new moment().add(_.random(15, 30), 'days').format();
+    },
+    description: function(){
+      return Fake.paragraph();
     },
     maxParticipant : 1,
     
@@ -26,7 +29,7 @@ Meteor.startup(function() {
 
   if (Workouts.find({}).count() === 0) {
 
-    _(10).times(function(n) {
+    _(100).times(function(n) {
       Factory.create('workouts');
     });
 
