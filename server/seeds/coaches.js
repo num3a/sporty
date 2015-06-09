@@ -2,10 +2,10 @@ Meteor.startup(function() {
 
     Factory.define('coaches', Coaches, {
         firstName: function() {
-            return Fake.word();
+            return Fake.user().name;
         },
         lastName:function(){
-          return Fake.word();
+          return Fake.user().surname;
         },
         activity: function(){
             var sampleActivies = ['running','cycling', 'fitness', 'streetworkout','yoga','crossfit'];
