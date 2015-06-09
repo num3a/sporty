@@ -13,6 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.addFiles('spty.js');
+  api.export('SPTY');
 });
 
 Package.onTest(function(api) {
