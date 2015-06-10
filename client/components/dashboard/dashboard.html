@@ -6,9 +6,42 @@
 
     <ul class="list-group">
       {{#each workouts}}
-        <li class="list-group-item">{{ activity }} <span class="label label-default">{{ beginDate }}</span></li>
+        <li class="list-group-item">
+          <div class="card">
+
+<div class="card-height-indicator"></div>
+
+<div class="card-content">
+
+<div class="card-image">
+<img src="http://placehold.it/30x30" alt="Loading image...">
+<h3 class="card-image-headline">{{location}}</h3>
+</div>
+
+<div class="card-body">
+<p>{{description}}</p>
+</div>
+
+<footer class="card-footer">
+<button class="btn btn-flat">{{activity}}</button>
+<button class="btn btn-flat">{{beginDate}}</button>
+<button class="btn btn-flat btn-warning">{{coachId}}</button>
+</footer>
+
+</div>
+
+</div>
+
+
+
+
+
+          
+        </li>
       {{/each}}
     </ul>
+
+
 
   </div>
 </template>
