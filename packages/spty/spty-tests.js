@@ -1,14 +1,11 @@
 // Write your tests here!
 // Here is an example.
-Tinytest.add('example', function (test) {
-  test.equal(true, true);
-});
 
-Tinytest.add('SPTY is not null',function(test) {
+Tinytest.add('[SPTY] SPTY is not null',function(test) {
     test.isNotNull(SPTY);
 });
 
-Tinytest.add('SPTY sub namespace are not null',function(test) {
+Tinytest.add('[SPTY] SPTY sub namespace are not null',function(test) {
     
     test.isNotNull(SPTY.Geolocation);
     test.isNotNull(SPTY.Payment);
