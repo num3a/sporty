@@ -29,8 +29,12 @@ cfs:standard-packages
 cfs:autoform
 cfs:ui
 
+materialize:materialize
 useraccounts:core
-useraccounts:bootstrap
+
+useraccounts:materialize
+
+#useraccounts:bootstrap
 
 matteodem:easy-search
 

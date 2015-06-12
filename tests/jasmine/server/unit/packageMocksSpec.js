@@ -7108,7 +7108,11 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
+<<<<<<< HEAD
                   "value": "34f4c4088b0262ccb0c399799a5759fc300363ec"
+=======
+                  "value": "d751d7ad13998d9dad15fdc8c791c774f64717ee"
+>>>>>>> Update version, add materialize
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7123,7 +7127,11 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
+<<<<<<< HEAD
                   "value": "d95726535cca36aeb177121b2411b5d6a23b67f3"
+=======
+                  "value": "934a87ff17ab4d3c7eaf1fb90e998eb7dca99b72"
+>>>>>>> Update version, add materialize
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7902,15 +7910,23 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
+<<<<<<< HEAD
           "value": "66b1e3df900609f5adde829169e006c05063d18f"
+=======
+          "value": "d2dcb63aa71d90f3321bbff87649c2c9a87163ed"
+>>>>>>> Update version, add materialize
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "d1acea5c4566c9ee39c2852675149624c426c4f2"
+          "value": "23e59457ac8463b1a70b48cae3a43c4a43045f63"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
+<<<<<<< HEAD
           "value": "d95726535cca36aeb177121b2411b5d6a23b67f3"
+=======
+          "value": "934a87ff17ab4d3c7eaf1fb90e998eb7dca99b72"
+>>>>>>> Update version, add materialize
         },
         "appId": {
           "type": "constant",
@@ -8018,7 +8034,7 @@ var packageMetadata = {
             },
             "siteName": {
               "type": "constant",
-              "value": "0.0.0.0:8080"
+              "value": "localhost:3000"
             },
             "resetPassword": {
               "type": "object",
@@ -9197,13 +9213,13 @@ var packageMetadata = {
       }
     }
   },
-  "underscorestring:underscore.string": {
-    "s": {
-      "type": "function",
+  "wizonesolutions:underscore-string": {
+    "_s": {
+      "type": "object",
       "members": {
         "VERSION": {
           "type": "constant",
-          "value": "3.0.3"
+          "value": "2.3.0"
         },
         "isBlank": {
           "type": "function"
@@ -9214,15 +9230,8 @@ var packageMetadata = {
         "capitalize": {
           "type": "function"
         },
-        "decapitalize": {
-          "type": "function"
-        },
         "chop": {
           "type": "function"
-        },
-        "trim": {
-          "type": "function",
-          "refID": 11
         },
         "clean": {
           "type": "function"
@@ -9242,26 +9251,23 @@ var packageMetadata = {
         "unescapeHTML": {
           "type": "function"
         },
+        "escapeRegExp": {
+          "type": "function"
+        },
         "splice": {
           "type": "function"
         },
         "insert": {
           "type": "function"
         },
-        "replaceAll": {
-          "type": "function"
-        },
         "include": {
           "type": "function",
-          "refID": 31
+          "refID": 27
         },
         "join": {
           "type": "function"
         },
         "lines": {
-          "type": "function"
-        },
-        "dedent": {
           "type": "function"
         },
         "reverse": {
@@ -9273,9 +9279,6 @@ var packageMetadata = {
         "endsWith": {
           "type": "function"
         },
-        "pred": {
-          "type": "function"
-        },
         "succ": {
           "type": "function"
         },
@@ -9283,8 +9286,7 @@ var packageMetadata = {
           "type": "function"
         },
         "camelize": {
-          "type": "function",
-          "refID": 51
+          "type": "function"
         },
         "underscored": {
           "type": "function"
@@ -9298,13 +9300,17 @@ var packageMetadata = {
         "humanize": {
           "type": "function"
         },
+        "trim": {
+          "type": "function",
+          "refID": 53
+        },
         "ltrim": {
           "type": "function",
-          "refID": 61
+          "refID": 55
         },
         "rtrim": {
           "type": "function",
-          "refID": 63
+          "refID": 57
         },
         "truncate": {
           "type": "function"
@@ -9320,15 +9326,15 @@ var packageMetadata = {
         },
         "lpad": {
           "type": "function",
-          "refID": 73
+          "refID": 67
         },
         "rpad": {
           "type": "function",
-          "refID": 75
+          "refID": 69
         },
         "lrpad": {
           "type": "function",
-          "refID": 77
+          "refID": 71
         },
         "sprintf": {
           "type": "function",
@@ -9379,9 +9385,12 @@ var packageMetadata = {
         },
         "quote": {
           "type": "function",
-          "refID": 108
+          "refID": 102
         },
         "unquote": {
+          "type": "function"
+        },
+        "exports": {
           "type": "function"
         },
         "repeat": {
@@ -9395,291 +9404,34 @@ var packageMetadata = {
         },
         "toBoolean": {
           "type": "function",
-          "refID": 118
-        },
-        "exports": {
-          "type": "function"
-        },
-        "escapeRegExp": {
-          "type": "function"
+          "refID": 114
         },
         "strip": {
-          "ref": 11
+          "ref": 53
         },
         "lstrip": {
-          "ref": 61
+          "ref": 55
         },
         "rstrip": {
-          "ref": 63
+          "ref": 57
         },
         "center": {
-          "ref": 77
+          "ref": 71
         },
         "rjust": {
-          "ref": 73
+          "ref": 67
         },
         "ljust": {
-          "ref": 75
+          "ref": 69
         },
         "contains": {
-          "ref": 31
+          "ref": 27
         },
         "q": {
-          "ref": 108
+          "ref": 102
         },
         "toBool": {
-          "ref": 118
-        },
-        "camelcase": {
-          "ref": 51
-        },
-        "prototype": {
-          "type": "object",
-          "members": {
-            "value": {
-              "type": "function"
-            },
-            "isBlank": {
-              "type": "function"
-            },
-            "stripTags": {
-              "type": "function"
-            },
-            "capitalize": {
-              "type": "function"
-            },
-            "decapitalize": {
-              "type": "function"
-            },
-            "chop": {
-              "type": "function"
-            },
-            "trim": {
-              "type": "function"
-            },
-            "clean": {
-              "type": "function"
-            },
-            "count": {
-              "type": "function"
-            },
-            "chars": {
-              "type": "function"
-            },
-            "swapCase": {
-              "type": "function"
-            },
-            "escapeHTML": {
-              "type": "function"
-            },
-            "unescapeHTML": {
-              "type": "function"
-            },
-            "splice": {
-              "type": "function"
-            },
-            "insert": {
-              "type": "function"
-            },
-            "replaceAll": {
-              "type": "function"
-            },
-            "include": {
-              "type": "function"
-            },
-            "join": {
-              "type": "function"
-            },
-            "lines": {
-              "type": "function"
-            },
-            "dedent": {
-              "type": "function"
-            },
-            "reverse": {
-              "type": "function"
-            },
-            "startsWith": {
-              "type": "function"
-            },
-            "endsWith": {
-              "type": "function"
-            },
-            "pred": {
-              "type": "function"
-            },
-            "succ": {
-              "type": "function"
-            },
-            "titleize": {
-              "type": "function"
-            },
-            "camelize": {
-              "type": "function"
-            },
-            "underscored": {
-              "type": "function"
-            },
-            "dasherize": {
-              "type": "function"
-            },
-            "classify": {
-              "type": "function"
-            },
-            "humanize": {
-              "type": "function"
-            },
-            "ltrim": {
-              "type": "function"
-            },
-            "rtrim": {
-              "type": "function"
-            },
-            "truncate": {
-              "type": "function"
-            },
-            "prune": {
-              "type": "function"
-            },
-            "words": {
-              "type": "function"
-            },
-            "pad": {
-              "type": "function"
-            },
-            "lpad": {
-              "type": "function"
-            },
-            "rpad": {
-              "type": "function"
-            },
-            "lrpad": {
-              "type": "function"
-            },
-            "sprintf": {
-              "type": "function"
-            },
-            "vsprintf": {
-              "type": "function"
-            },
-            "toNumber": {
-              "type": "function"
-            },
-            "numberFormat": {
-              "type": "function"
-            },
-            "strRight": {
-              "type": "function"
-            },
-            "strRightBack": {
-              "type": "function"
-            },
-            "strLeft": {
-              "type": "function"
-            },
-            "strLeftBack": {
-              "type": "function"
-            },
-            "toSentence": {
-              "type": "function"
-            },
-            "toSentenceSerial": {
-              "type": "function"
-            },
-            "slugify": {
-              "type": "function"
-            },
-            "surround": {
-              "type": "function"
-            },
-            "quote": {
-              "type": "function"
-            },
-            "unquote": {
-              "type": "function"
-            },
-            "repeat": {
-              "type": "function"
-            },
-            "naturalCmp": {
-              "type": "function"
-            },
-            "levenshtein": {
-              "type": "function"
-            },
-            "toBoolean": {
-              "type": "function"
-            },
-            "exports": {
-              "type": "function"
-            },
-            "escapeRegExp": {
-              "type": "function"
-            },
-            "strip": {
-              "type": "function"
-            },
-            "lstrip": {
-              "type": "function"
-            },
-            "rstrip": {
-              "type": "function"
-            },
-            "center": {
-              "type": "function"
-            },
-            "rjust": {
-              "type": "function"
-            },
-            "ljust": {
-              "type": "function"
-            },
-            "contains": {
-              "type": "function"
-            },
-            "q": {
-              "type": "function"
-            },
-            "toBool": {
-              "type": "function"
-            },
-            "camelcase": {
-              "type": "function"
-            },
-            "future": {
-              "type": "function"
-            },
-            "deprecate": {
-              "type": "function"
-            },
-            "tap": {
-              "type": "function"
-            },
-            "toUpperCase": {
-              "type": "function"
-            },
-            "toLowerCase": {
-              "type": "function"
-            },
-            "split": {
-              "type": "function"
-            },
-            "replace": {
-              "type": "function"
-            },
-            "slice": {
-              "type": "function"
-            },
-            "substring": {
-              "type": "function"
-            },
-            "substr": {
-              "type": "function"
-            },
-            "concat": {
-              "type": "function"
-            }
-          }
+          "ref": 114
         }
       }
     }
@@ -11027,9 +10779,6 @@ var packageMetadata = {
             }
           }
         },
-        "getUserId": {
-          "type": "function"
-        },
         "extendCollectionInstance": {
           "type": "function"
         },
@@ -12285,7 +12034,7 @@ var packageMetadata = {
             },
             "endpoint": {
               "type": "constant",
-              "value": "https://enginex.kadira.io"
+              "value": "https://engine.kadira.io"
             },
             "clientEngineSyncDelay": {
               "type": "constant",
@@ -12296,7 +12045,7 @@ var packageMetadata = {
             },
             "hostname": {
               "type": "constant",
-              "value": "num3a-sporty-1577215"
+              "value": "MacBook-de-Emmanuel-Ernest.local"
             },
             "proxy": {
               "type": "null",
@@ -12419,12 +12168,20 @@ var packageMetadata = {
                 "metricsByMinute": {
                   "type": "object",
                   "members": {
+<<<<<<< HEAD
                     "1434110100000": {
+=======
+                    "1433963520000": {
+>>>>>>> Update version, add materialize
                       "type": "object",
                       "members": {
                         "startTime": {
                           "type": "constant",
+<<<<<<< HEAD
                           "value": 1434110159734
+=======
+                          "value": 1433963522703
+>>>>>>> Update version, add materialize
                         },
                         "pubs": {
                           "type": "object",
@@ -12553,7 +12310,11 @@ var packageMetadata = {
               "members": {
                 "startTime": {
                   "type": "constant",
+<<<<<<< HEAD
                   "value": 1434110159726
+=======
+                  "value": 1433963522693
+>>>>>>> Update version, add materialize
                 },
                 "newSessions": {
                   "type": "constant",
@@ -12596,7 +12357,11 @@ var packageMetadata = {
                 },
                 "startTime": {
                   "type": "constant",
+<<<<<<< HEAD
                   "value": 1434110159726
+=======
+                  "value": 1433963522693
+>>>>>>> Update version, add materialize
                 },
                 "maxErrors": {
                   "type": "constant",
@@ -12779,15 +12544,23 @@ var packageMetadata = {
           "members": {
             "endpoint": {
               "type": "constant",
-              "value": "https://enginex.kadira.io/simplentp/sync"
+              "value": "https://engine.kadira.io/simplentp/sync"
             },
             "diff": {
               "type": "constant",
+<<<<<<< HEAD
               "value": 39.5
             },
             "reSyncCount": {
               "type": "constant",
               "value": 1
+=======
+              "value": 0
+            },
+            "reSyncCount": {
+              "type": "constant",
+              "value": 0
+>>>>>>> Update version, add materialize
             },
             "reSync": {
               "type": "object",
@@ -12817,18 +12590,8 @@ var packageMetadata = {
                   "value": 0.5
                 },
                 "retryTimer": {
-                  "type": "object",
-                  "members": {
-                    "unref": {
-                      "type": "function"
-                    },
-                    "ref": {
-                      "type": "function"
-                    },
-                    "close": {
-                      "type": "function"
-                    }
-                  }
+                  "type": "null",
+                  "value": null
                 },
                 "clear": {
                   "type": "function"
@@ -13161,12 +12924,6 @@ var packageMetadata = {
                 "copy": {
                   "type": "function"
                 },
-                "copyData": {
-                  "type": "function"
-                },
-                "moveData": {
-                  "type": "function"
-                },
                 "url": {
                   "type": "function"
                 },
@@ -13443,26 +13200,6 @@ var packageMetadata = {
             },
             "setBaseUrl": {
               "type": "function"
-            },
-            "Handlers": {
-              "type": "object",
-              "members": {
-                "Del": {
-                  "type": "function"
-                },
-                "GetList": {
-                  "type": "function"
-                },
-                "Get": {
-                  "type": "function"
-                },
-                "PutInsert": {
-                  "type": "function"
-                },
-                "PutUpdate": {
-                  "type": "function"
-                }
-              }
             },
             "setHeadersForGet": {
               "type": "function"
@@ -14176,6 +13913,7 @@ var packageMetadata = {
   "cfs:worker": {},
   "cfs:autoform": {},
   "cfs:ui": {},
+  "materialize:materialize": {},
   "useraccounts:core": {
     "AccountsTemplates": {
       "type": "object",
@@ -14466,14 +14204,6 @@ var packageMetadata = {
                 }
               }
             },
-            "maxAllowedLength": {
-              "type": "constant",
-              "value": "Maximum allowed length"
-            },
-            "minRequiredLength": {
-              "type": "constant",
-              "value": "Minimum required length"
-            },
             "optionalField": {
               "type": "constant",
               "value": "optional"
@@ -14489,10 +14219,6 @@ var packageMetadata = {
             "pwdLink_suff": {
               "type": "constant",
               "value": ""
-            },
-            "requiredField": {
-              "type": "constant",
-              "value": "Required Field"
             },
             "resendVerificationEmailLink_pre": {
               "type": "constant",
@@ -23646,7 +23372,7 @@ var packageMetadata = {
       }
     }
   },
-  "useraccounts:bootstrap": {},
+  "useraccounts:materialize": {},
   "session": {},
   "matteodem:easy-search": {
     "EasySearch": {
@@ -73419,15 +73145,19 @@ var packageMetadata = {
                 },
                 "appPath": {
                   "type": "constant",
-                  "value": "/home/ubuntu/workspace"
+                  "value": "/Users/emmanuelernest/sporty"
                 },
                 "pid": {
                   "type": "constant",
+<<<<<<< HEAD
                   "value": 18319
+=======
+                  "value": 2318
+>>>>>>> Update version, add materialize
                 },
                 "fout": {
                   "type": "constant",
-                  "value": 29
+                  "value": 40
                 },
                 "child": {
                   "type": "object",
@@ -73446,7 +73176,11 @@ var packageMetadata = {
                     },
                     "pid": {
                       "type": "constant",
+<<<<<<< HEAD
                       "value": 18319
+=======
+                      "value": 2318
+>>>>>>> Update version, add materialize
                     },
                     "stdin": {
                       "type": "null",
