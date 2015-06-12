@@ -3,4 +3,4 @@ Geolocation = {};
 
 Geolocation.getLocation  = function(){
     
-}
+};

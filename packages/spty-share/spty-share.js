@@ -3,4 +3,4 @@ Share = {};
 
 Share.publishOnFacebook = function(){
 
-}
+};

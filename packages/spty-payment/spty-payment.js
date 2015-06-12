@@ -3,4 +3,4 @@ Payment = {};
 
 Payment.generateBill = function(){
     
-}
+};
