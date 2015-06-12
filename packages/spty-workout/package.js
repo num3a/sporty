@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'num3a:spty-notification',
+  name: 'num3a:spty-workout',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: '',
@@ -12,12 +12,11 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
- // api.imply('num3a:spty');
-  api.addFiles('spty-nofitication.js');
-  api.export('Notification');
+  api.addFiles('spty-workout.js');
 });
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.addFiles('spty-nofitication-tests.js');
+  api.use('num3a:spty-workout');
+  api.addFiles('spty-workout-tests.js');
 });

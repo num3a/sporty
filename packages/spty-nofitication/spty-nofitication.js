@@ -1,4 +1,9 @@
 // Write your package code here!
-SPTY = SPTY || {};
+//SPTY = SPTY || {};
+Notification = {};
 
-SPTY.Notification = {};
+Notification.log = function(){
+    console.log('this is meteor');
+}
+
+

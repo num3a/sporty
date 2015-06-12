@@ -7108,7 +7108,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "5c4a20b480814405bce2cbab3d39f17ad22295b0"
+                  "value": "34f4c4088b0262ccb0c399799a5759fc300363ec"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7123,7 +7123,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "00c2c5409f3269c66915317746beea8a03b24178"
+                  "value": "d95726535cca36aeb177121b2411b5d6a23b67f3"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7902,7 +7902,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "ca530f49a5d2233835a084a52c926e18530d2a06"
+          "value": "66b1e3df900609f5adde829169e006c05063d18f"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -7910,7 +7910,7 @@ var packageMetadata = {
         },
         "autoupdateVersionCordova": {
           "type": "constant",
-          "value": "00c2c5409f3269c66915317746beea8a03b24178"
+          "value": "d95726535cca36aeb177121b2411b5d6a23b67f3"
         },
         "appId": {
           "type": "constant",
@@ -12345,272 +12345,7 @@ var packageMetadata = {
               "type": "object",
               "members": {
                 "methodMetricsByMinute": {
-                  "type": "object",
-                  "members": {
-                    "1433937660000": {
-                      "type": "object",
-                      "members": {
-                        "startTime": {
-                          "type": "constant",
-                          "value": 1433937666870
-                        },
-                        "methods": {
-                          "type": "object",
-                          "members": {
-                            "login": {
-                              "type": "object",
-                              "members": {
-                                "count": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 9
-                                },
-                                "http": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "email": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "async": {
-                                  "type": "constant",
-                                  "value": 3
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 9
-                                },
-                                "total": {
-                                  "type": "constant",
-                                  "value": 21
-                                }
-                              }
-                            },
-                            "jasmine/environmentInfo": {
-                              "type": "object",
-                              "members": {
-                                "count": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "http": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "email": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "async": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "total": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "velocity/isEnabled": {
-                              "type": "object",
-                              "members": {
-                                "count": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "http": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "email": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "async": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "total": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            },
-                            "velocity/isMirror": {
-                              "type": "object",
-                              "members": {
-                                "count": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "http": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "email": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "async": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "total": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            },
-                            "velocity/copySampleTests": {
-                              "type": "object",
-                              "members": {
-                                "count": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "http": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "email": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "async": {
-                                  "type": "constant",
-                                  "value": 10
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 3
-                                },
-                                "total": {
-                                  "type": "constant",
-                                  "value": 13
-                                }
-                              }
-                            },
-                            "velocity/reset": {
-                              "type": "object",
-                              "members": {
-                                "count": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 22
-                                },
-                                "http": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "email": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "async": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 2
-                                },
-                                "total": {
-                                  "type": "constant",
-                                  "value": 24
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "endTime": {
-                          "type": "undefined"
-                        }
-                      }
-                    }
-                  }
+                  "type": "object"
                 },
                 "errorMap": {
                   "type": "object"
@@ -12637,319 +12372,7 @@ var packageMetadata = {
                       "type": "object"
                     },
                     "currentMaxTrace": {
-                      "type": "object",
-                      "members": {
-                        "method::login": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "null",
-                              "value": null
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "1"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "method"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "login"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937666870
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 21
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 9
-                                },
-                                "async": {
-                                  "type": "constant",
-                                  "value": 3
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 9
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "method::jasmine/environmentInfo": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "2"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "method"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "jasmine/environmentInfo"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937687022
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "method::velocity/isEnabled": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "3"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "method"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "velocity/isEnabled"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937687114
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "method::velocity/isMirror": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "4"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "method"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "velocity/isMirror"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937687115
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "method::velocity/copySampleTests": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "5"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "method"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "velocity/copySampleTests"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937691044
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 13
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "async": {
-                                  "type": "constant",
-                                  "value": 10
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 3
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "method::velocity/reset": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "6"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "method"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "velocity/reset"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937691275
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 24
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 22
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 2
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
+                      "type": "object"
                     },
                     "traceArchive": {
                       "type": "array"
@@ -12962,23 +12385,23 @@ var packageMetadata = {
                     },
                     "addTrace": {
                       "type": "function",
-                      "refID": 50
+                      "refID": 24
                     },
                     "collectTraces": {
                       "type": "function",
-                      "refID": 52
+                      "refID": 26
                     },
                     "start": {
                       "type": "function",
-                      "refID": 54
+                      "refID": 28
                     },
                     "stop": {
                       "type": "function",
-                      "refID": 56
+                      "refID": 30
                     },
                     "processTraces": {
                       "type": "function",
-                      "refID": 58
+                      "refID": 32
                     }
                   }
                 },
@@ -12996,114 +12419,16 @@ var packageMetadata = {
                 "metricsByMinute": {
                   "type": "object",
                   "members": {
-                    "1433937660000": {
+                    "1434110100000": {
                       "type": "object",
                       "members": {
                         "startTime": {
                           "type": "constant",
-                          "value": 1433937666775
+                          "value": 1434110159734
                         },
                         "pubs": {
                           "type": "object",
                           "members": {
-                            "meteor.loginServiceConfiguration": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 2
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 3
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 28430
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "meteor_autoupdate_clientVersions": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 2
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 32238
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
                             "null(autopublish)": {
                               "type": "object",
                               "members": {
@@ -13129,7 +12454,7 @@ var packageMetadata = {
                                 },
                                 "lifeTime": {
                                   "type": "constant",
-                                  "value": 96720
+                                  "value": 0
                                 },
                                 "totalObservers": {
                                   "type": "constant",
@@ -13146,447 +12471,6 @@ var packageMetadata = {
                                 "deletedObservers": {
                                   "type": "constant",
                                   "value": 0
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "login": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 4
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "VelocityTestFiles": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 6
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 14662
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "VelocityFixtureFiles": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 21
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 14575
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "VelocityTestReports": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 23
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 14574
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "VelocityAggregateReports": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 27
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 14574
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "VelocityLogs": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 31
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 14574
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "VelocityMirrors": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 138
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 14575
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "VelocityOptions": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 142
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 14574
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "errors": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            },
-                            "Workouts.Limit": {
-                              "type": "object",
-                              "members": {
-                                "subs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "unsubs": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "resTime": {
-                                  "type": "constant",
-                                  "value": 15
-                                },
-                                "activeSubs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "activeDocs": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "lifeTime": {
-                                  "type": "constant",
-                                  "value": 4181
-                                },
-                                "totalObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "cachedObservers": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "createdObservers": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "deletedObservers": {
-                                  "type": "constant",
-                                  "value": 1
                                 },
                                 "errors": {
                                   "type": "constant",
@@ -13622,539 +12506,7 @@ var packageMetadata = {
                       "type": "object"
                     },
                     "currentMaxTrace": {
-                      "type": "object",
-                      "members": {
-                        "sub::meteor_autoupdate_clientVersions": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "null",
-                              "value": null
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "c9AHmwY8Z5TQDDp7e"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "sub"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "meteor_autoupdate_clientVersions"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937662965
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 5
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 2
-                                },
-                                "async": {
-                                  "type": "constant",
-                                  "value": 2
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "sub::meteor.loginServiceConfiguration": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "null",
-                              "value": null
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "Tp7dh82skGD7KNfoz"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "sub"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "meteor.loginServiceConfiguration"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937666775
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 3
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 2
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "sub::VelocityTestFiles": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "8DwCpcPq6YJdxqvNt"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "sub"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "VelocityTestFiles"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937676634
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 6
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 5
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "sub::VelocityFixtureFiles": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "5fRejnSCJZfw7y2XK"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "sub"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "VelocityFixtureFiles"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937676721
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 21
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 20
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "sub::VelocityTestReports": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "8x84HLPirvax6Q54d"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "sub"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "VelocityTestReports"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937676722
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 22
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 20
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 1
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "sub::VelocityAggregateReports": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "vf9Dh5dGwSNJmw47M"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "sub"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "VelocityAggregateReports"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937676722
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 27
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 23
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 4
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "sub::VelocityLogs": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "W36J5KZxwdtXKa6JL"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "sub"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "VelocityLogs"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937676722
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 31
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 27
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 4
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 0
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "sub::VelocityMirrors": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "8W2WdfnENFFNLfgjk"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "sub"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "VelocityMirrors"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937676722
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 138
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 32
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 105
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "sub::VelocityOptions": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "wD9cTyktX6SEJTKi5"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "sub"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "VelocityOptions"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937676723
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 142
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 137
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 4
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            }
-                          }
-                        },
-                        "sub::Workouts.Limit": {
-                          "type": "object",
-                          "members": {
-                            "session": {
-                              "type": "constant",
-                              "value": "HAd2kbZdKDuAf2tzs"
-                            },
-                            "userId": {
-                              "type": "constant",
-                              "value": "YpeWoyhvb6TCBD2NW"
-                            },
-                            "id": {
-                              "type": "constant",
-                              "value": "YxZRwmKPq3MZh3cEn"
-                            },
-                            "events": {
-                              "type": "array"
-                            },
-                            "type": {
-                              "type": "constant",
-                              "value": "sub"
-                            },
-                            "name": {
-                              "type": "constant",
-                              "value": "Workouts.Limit"
-                            },
-                            "at": {
-                              "type": "constant",
-                              "value": 1433937687116
-                            },
-                            "metrics": {
-                              "type": "object",
-                              "members": {
-                                "total": {
-                                  "type": "constant",
-                                  "value": 15
-                                },
-                                "wait": {
-                                  "type": "constant",
-                                  "value": 0
-                                },
-                                "db": {
-                                  "type": "constant",
-                                  "value": 14
-                                },
-                                "compute": {
-                                  "type": "constant",
-                                  "value": 1
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
+                      "type": "object"
                     },
                     "traceArchive": {
                       "type": "array"
@@ -14166,19 +12518,19 @@ var packageMetadata = {
                       "type": "object"
                     },
                     "addTrace": {
-                      "ref": 50
+                      "ref": 24
                     },
                     "collectTraces": {
-                      "ref": 52
+                      "ref": 26
                     },
                     "start": {
-                      "ref": 54
+                      "ref": 28
                     },
                     "stop": {
-                      "ref": 56
+                      "ref": 30
                     },
                     "processTraces": {
-                      "ref": 58
+                      "ref": 32
                     }
                   }
                 },
@@ -14201,7 +12553,7 @@ var packageMetadata = {
               "members": {
                 "startTime": {
                   "type": "constant",
-                  "value": 1433937664235
+                  "value": 1434110159726
                 },
                 "newSessions": {
                   "type": "constant",
@@ -14233,7 +12585,7 @@ var packageMetadata = {
             },
             "error": {
               "type": "object",
-              "refID": 138,
+              "refID": 71,
               "members": {
                 "appId": {
                   "type": "constant",
@@ -14244,7 +12596,7 @@ var packageMetadata = {
                 },
                 "startTime": {
                   "type": "constant",
-                  "value": 1433937664236
+                  "value": 1434110159726
                 },
                 "maxErrors": {
                   "type": "constant",
@@ -14314,7 +12666,7 @@ var packageMetadata = {
           }
         },
         "errors": {
-          "ref": 138
+          "ref": 71
         },
         "connect": {
           "type": "function"
@@ -14343,31 +12695,31 @@ var packageMetadata = {
           "members": {
             "start": {
               "type": "function",
-              "refID": 180
+              "refID": 113
             },
             "event": {
               "type": "function",
-              "refID": 182
+              "refID": 115
             },
             "eventEnd": {
               "type": "function",
-              "refID": 184
+              "refID": 117
             },
             "getLastEvent": {
               "type": "function",
-              "refID": 186
+              "refID": 119
             },
             "endLastEvent": {
               "type": "function",
-              "refID": 188
+              "refID": 121
             },
             "buildTrace": {
               "type": "function",
-              "refID": 190
+              "refID": 123
             },
             "addFilter": {
               "type": "function",
-              "refID": 192
+              "refID": 125
             }
           }
         },
@@ -14384,25 +12736,25 @@ var packageMetadata = {
               "type": "object",
               "members": {
                 "start": {
-                  "ref": 180
+                  "ref": 113
                 },
                 "event": {
-                  "ref": 182
+                  "ref": 115
                 },
                 "eventEnd": {
-                  "ref": 184
+                  "ref": 117
                 },
                 "getLastEvent": {
-                  "ref": 186
+                  "ref": 119
                 },
                 "endLastEvent": {
-                  "ref": 188
+                  "ref": 121
                 },
                 "buildTrace": {
-                  "ref": 190
+                  "ref": 123
                 },
                 "addFilter": {
-                  "ref": 192
+                  "ref": 125
                 }
               }
             }
@@ -14431,11 +12783,11 @@ var packageMetadata = {
             },
             "diff": {
               "type": "constant",
-              "value": -34.5
+              "value": 39.5
             },
             "reSyncCount": {
               "type": "constant",
-              "value": 2
+              "value": 1
             },
             "reSync": {
               "type": "object",
@@ -75071,7 +73423,7 @@ var packageMetadata = {
                 },
                 "pid": {
                   "type": "constant",
-                  "value": 13525
+                  "value": 18319
                 },
                 "fout": {
                   "type": "constant",
@@ -75094,7 +73446,7 @@ var packageMetadata = {
                     },
                     "pid": {
                       "type": "constant",
-                      "value": 13525
+                      "value": 18319
                     },
                     "stdin": {
                       "type": "null",
