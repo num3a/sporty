@@ -7108,11 +7108,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-<<<<<<< HEAD
-                  "value": "34f4c4088b0262ccb0c399799a5759fc300363ec"
-=======
-                  "value": "d751d7ad13998d9dad15fdc8c791c774f64717ee"
->>>>>>> Update version, add materialize
+                  "value": "f4b9816612ae171e64949ad6ea11e87750db5cfe"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7127,11 +7123,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-<<<<<<< HEAD
-                  "value": "d95726535cca36aeb177121b2411b5d6a23b67f3"
-=======
-                  "value": "934a87ff17ab4d3c7eaf1fb90e998eb7dca99b72"
->>>>>>> Update version, add materialize
+                  "value": "57301719428d887faf5aae63e6301f4696a7e4af"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7910,23 +7902,15 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-<<<<<<< HEAD
-          "value": "66b1e3df900609f5adde829169e006c05063d18f"
-=======
-          "value": "d2dcb63aa71d90f3321bbff87649c2c9a87163ed"
->>>>>>> Update version, add materialize
+          "value": "29d4afb997d515132827ebec46cc25a90dd938d8"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "23e59457ac8463b1a70b48cae3a43c4a43045f63"
+          "value": "0832520a8e75461c1d811c55b16aab5d9967bbe4"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
-<<<<<<< HEAD
-          "value": "d95726535cca36aeb177121b2411b5d6a23b67f3"
-=======
-          "value": "934a87ff17ab4d3c7eaf1fb90e998eb7dca99b72"
->>>>>>> Update version, add materialize
+          "value": "57301719428d887faf5aae63e6301f4696a7e4af"
         },
         "appId": {
           "type": "constant",
@@ -8836,6 +8820,9 @@ var packageMetadata = {
                 },
                 "delete": {
                   "type": "function"
+                },
+                "patch": {
+                  "type": "function"
                 }
               }
             }
@@ -9213,13 +9200,13 @@ var packageMetadata = {
       }
     }
   },
-  "wizonesolutions:underscore-string": {
-    "_s": {
-      "type": "object",
+  "underscorestring:underscore.string": {
+    "s": {
+      "type": "function",
       "members": {
         "VERSION": {
           "type": "constant",
-          "value": "2.3.0"
+          "value": "3.0.3"
         },
         "isBlank": {
           "type": "function"
@@ -9230,8 +9217,15 @@ var packageMetadata = {
         "capitalize": {
           "type": "function"
         },
+        "decapitalize": {
+          "type": "function"
+        },
         "chop": {
           "type": "function"
+        },
+        "trim": {
+          "type": "function",
+          "refID": 11
         },
         "clean": {
           "type": "function"
@@ -9251,23 +9245,26 @@ var packageMetadata = {
         "unescapeHTML": {
           "type": "function"
         },
-        "escapeRegExp": {
-          "type": "function"
-        },
         "splice": {
           "type": "function"
         },
         "insert": {
           "type": "function"
         },
+        "replaceAll": {
+          "type": "function"
+        },
         "include": {
           "type": "function",
-          "refID": 27
+          "refID": 31
         },
         "join": {
           "type": "function"
         },
         "lines": {
+          "type": "function"
+        },
+        "dedent": {
           "type": "function"
         },
         "reverse": {
@@ -9279,6 +9276,9 @@ var packageMetadata = {
         "endsWith": {
           "type": "function"
         },
+        "pred": {
+          "type": "function"
+        },
         "succ": {
           "type": "function"
         },
@@ -9286,7 +9286,8 @@ var packageMetadata = {
           "type": "function"
         },
         "camelize": {
-          "type": "function"
+          "type": "function",
+          "refID": 51
         },
         "underscored": {
           "type": "function"
@@ -9300,17 +9301,13 @@ var packageMetadata = {
         "humanize": {
           "type": "function"
         },
-        "trim": {
-          "type": "function",
-          "refID": 53
-        },
         "ltrim": {
           "type": "function",
-          "refID": 55
+          "refID": 61
         },
         "rtrim": {
           "type": "function",
-          "refID": 57
+          "refID": 63
         },
         "truncate": {
           "type": "function"
@@ -9326,15 +9323,15 @@ var packageMetadata = {
         },
         "lpad": {
           "type": "function",
-          "refID": 67
+          "refID": 73
         },
         "rpad": {
           "type": "function",
-          "refID": 69
+          "refID": 75
         },
         "lrpad": {
           "type": "function",
-          "refID": 71
+          "refID": 77
         },
         "sprintf": {
           "type": "function",
@@ -9385,12 +9382,9 @@ var packageMetadata = {
         },
         "quote": {
           "type": "function",
-          "refID": 102
+          "refID": 108
         },
         "unquote": {
-          "type": "function"
-        },
-        "exports": {
           "type": "function"
         },
         "repeat": {
@@ -9404,34 +9398,291 @@ var packageMetadata = {
         },
         "toBoolean": {
           "type": "function",
-          "refID": 114
+          "refID": 118
+        },
+        "exports": {
+          "type": "function"
+        },
+        "escapeRegExp": {
+          "type": "function"
         },
         "strip": {
-          "ref": 53
+          "ref": 11
         },
         "lstrip": {
-          "ref": 55
+          "ref": 61
         },
         "rstrip": {
-          "ref": 57
+          "ref": 63
         },
         "center": {
-          "ref": 71
+          "ref": 77
         },
         "rjust": {
-          "ref": 67
+          "ref": 73
         },
         "ljust": {
-          "ref": 69
+          "ref": 75
         },
         "contains": {
-          "ref": 27
+          "ref": 31
         },
         "q": {
-          "ref": 102
+          "ref": 108
         },
         "toBool": {
-          "ref": 114
+          "ref": 118
+        },
+        "camelcase": {
+          "ref": 51
+        },
+        "prototype": {
+          "type": "object",
+          "members": {
+            "value": {
+              "type": "function"
+            },
+            "isBlank": {
+              "type": "function"
+            },
+            "stripTags": {
+              "type": "function"
+            },
+            "capitalize": {
+              "type": "function"
+            },
+            "decapitalize": {
+              "type": "function"
+            },
+            "chop": {
+              "type": "function"
+            },
+            "trim": {
+              "type": "function"
+            },
+            "clean": {
+              "type": "function"
+            },
+            "count": {
+              "type": "function"
+            },
+            "chars": {
+              "type": "function"
+            },
+            "swapCase": {
+              "type": "function"
+            },
+            "escapeHTML": {
+              "type": "function"
+            },
+            "unescapeHTML": {
+              "type": "function"
+            },
+            "splice": {
+              "type": "function"
+            },
+            "insert": {
+              "type": "function"
+            },
+            "replaceAll": {
+              "type": "function"
+            },
+            "include": {
+              "type": "function"
+            },
+            "join": {
+              "type": "function"
+            },
+            "lines": {
+              "type": "function"
+            },
+            "dedent": {
+              "type": "function"
+            },
+            "reverse": {
+              "type": "function"
+            },
+            "startsWith": {
+              "type": "function"
+            },
+            "endsWith": {
+              "type": "function"
+            },
+            "pred": {
+              "type": "function"
+            },
+            "succ": {
+              "type": "function"
+            },
+            "titleize": {
+              "type": "function"
+            },
+            "camelize": {
+              "type": "function"
+            },
+            "underscored": {
+              "type": "function"
+            },
+            "dasherize": {
+              "type": "function"
+            },
+            "classify": {
+              "type": "function"
+            },
+            "humanize": {
+              "type": "function"
+            },
+            "ltrim": {
+              "type": "function"
+            },
+            "rtrim": {
+              "type": "function"
+            },
+            "truncate": {
+              "type": "function"
+            },
+            "prune": {
+              "type": "function"
+            },
+            "words": {
+              "type": "function"
+            },
+            "pad": {
+              "type": "function"
+            },
+            "lpad": {
+              "type": "function"
+            },
+            "rpad": {
+              "type": "function"
+            },
+            "lrpad": {
+              "type": "function"
+            },
+            "sprintf": {
+              "type": "function"
+            },
+            "vsprintf": {
+              "type": "function"
+            },
+            "toNumber": {
+              "type": "function"
+            },
+            "numberFormat": {
+              "type": "function"
+            },
+            "strRight": {
+              "type": "function"
+            },
+            "strRightBack": {
+              "type": "function"
+            },
+            "strLeft": {
+              "type": "function"
+            },
+            "strLeftBack": {
+              "type": "function"
+            },
+            "toSentence": {
+              "type": "function"
+            },
+            "toSentenceSerial": {
+              "type": "function"
+            },
+            "slugify": {
+              "type": "function"
+            },
+            "surround": {
+              "type": "function"
+            },
+            "quote": {
+              "type": "function"
+            },
+            "unquote": {
+              "type": "function"
+            },
+            "repeat": {
+              "type": "function"
+            },
+            "naturalCmp": {
+              "type": "function"
+            },
+            "levenshtein": {
+              "type": "function"
+            },
+            "toBoolean": {
+              "type": "function"
+            },
+            "exports": {
+              "type": "function"
+            },
+            "escapeRegExp": {
+              "type": "function"
+            },
+            "strip": {
+              "type": "function"
+            },
+            "lstrip": {
+              "type": "function"
+            },
+            "rstrip": {
+              "type": "function"
+            },
+            "center": {
+              "type": "function"
+            },
+            "rjust": {
+              "type": "function"
+            },
+            "ljust": {
+              "type": "function"
+            },
+            "contains": {
+              "type": "function"
+            },
+            "q": {
+              "type": "function"
+            },
+            "toBool": {
+              "type": "function"
+            },
+            "camelcase": {
+              "type": "function"
+            },
+            "future": {
+              "type": "function"
+            },
+            "deprecate": {
+              "type": "function"
+            },
+            "tap": {
+              "type": "function"
+            },
+            "toUpperCase": {
+              "type": "function"
+            },
+            "toLowerCase": {
+              "type": "function"
+            },
+            "split": {
+              "type": "function"
+            },
+            "replace": {
+              "type": "function"
+            },
+            "slice": {
+              "type": "function"
+            },
+            "substring": {
+              "type": "function"
+            },
+            "substr": {
+              "type": "function"
+            },
+            "concat": {
+              "type": "function"
+            }
+          }
         }
       }
     }
@@ -10779,6 +11030,9 @@ var packageMetadata = {
             }
           }
         },
+        "getUserId": {
+          "type": "function"
+        },
         "extendCollectionInstance": {
           "type": "function"
         },
@@ -12034,7 +12288,7 @@ var packageMetadata = {
             },
             "endpoint": {
               "type": "constant",
-              "value": "https://engine.kadira.io"
+              "value": "https://enginex.kadira.io"
             },
             "clientEngineSyncDelay": {
               "type": "constant",
@@ -12168,20 +12422,12 @@ var packageMetadata = {
                 "metricsByMinute": {
                   "type": "object",
                   "members": {
-<<<<<<< HEAD
-                    "1434110100000": {
-=======
-                    "1433963520000": {
->>>>>>> Update version, add materialize
+                    "1434159420000": {
                       "type": "object",
                       "members": {
                         "startTime": {
                           "type": "constant",
-<<<<<<< HEAD
-                          "value": 1434110159734
-=======
-                          "value": 1433963522703
->>>>>>> Update version, add materialize
+                          "value": 1434159448031
                         },
                         "pubs": {
                           "type": "object",
@@ -12310,11 +12556,7 @@ var packageMetadata = {
               "members": {
                 "startTime": {
                   "type": "constant",
-<<<<<<< HEAD
-                  "value": 1434110159726
-=======
-                  "value": 1433963522693
->>>>>>> Update version, add materialize
+                  "value": 1434159448021
                 },
                 "newSessions": {
                   "type": "constant",
@@ -12357,11 +12599,7 @@ var packageMetadata = {
                 },
                 "startTime": {
                   "type": "constant",
-<<<<<<< HEAD
-                  "value": 1434110159726
-=======
-                  "value": 1433963522693
->>>>>>> Update version, add materialize
+                  "value": 1434159448021
                 },
                 "maxErrors": {
                   "type": "constant",
@@ -12544,23 +12782,15 @@ var packageMetadata = {
           "members": {
             "endpoint": {
               "type": "constant",
-              "value": "https://engine.kadira.io/simplentp/sync"
+              "value": "https://enginex.kadira.io/simplentp/sync"
             },
             "diff": {
               "type": "constant",
-<<<<<<< HEAD
-              "value": 39.5
-            },
-            "reSyncCount": {
-              "type": "constant",
-              "value": 1
-=======
               "value": 0
             },
             "reSyncCount": {
               "type": "constant",
               "value": 0
->>>>>>> Update version, add materialize
             },
             "reSync": {
               "type": "object",
@@ -12924,6 +13154,12 @@ var packageMetadata = {
                 "copy": {
                   "type": "function"
                 },
+                "copyData": {
+                  "type": "function"
+                },
+                "moveData": {
+                  "type": "function"
+                },
                 "url": {
                   "type": "function"
                 },
@@ -13200,6 +13436,26 @@ var packageMetadata = {
             },
             "setBaseUrl": {
               "type": "function"
+            },
+            "Handlers": {
+              "type": "object",
+              "members": {
+                "Del": {
+                  "type": "function"
+                },
+                "GetList": {
+                  "type": "function"
+                },
+                "Get": {
+                  "type": "function"
+                },
+                "PutInsert": {
+                  "type": "function"
+                },
+                "PutUpdate": {
+                  "type": "function"
+                }
+              }
             },
             "setHeadersForGet": {
               "type": "function"
@@ -14204,6 +14460,14 @@ var packageMetadata = {
                 }
               }
             },
+            "maxAllowedLength": {
+              "type": "constant",
+              "value": "Maximum allowed length"
+            },
+            "minRequiredLength": {
+              "type": "constant",
+              "value": "Minimum required length"
+            },
             "optionalField": {
               "type": "constant",
               "value": "optional"
@@ -14219,6 +14483,10 @@ var packageMetadata = {
             "pwdLink_suff": {
               "type": "constant",
               "value": ""
+            },
+            "requiredField": {
+              "type": "constant",
+              "value": "Required Field"
             },
             "resendVerificationEmailLink_pre": {
               "type": "constant",
@@ -73149,11 +73417,7 @@ var packageMetadata = {
                 },
                 "pid": {
                   "type": "constant",
-<<<<<<< HEAD
-                  "value": 18319
-=======
-                  "value": 2318
->>>>>>> Update version, add materialize
+                  "value": 8667
                 },
                 "fout": {
                   "type": "constant",
@@ -73176,11 +73440,7 @@ var packageMetadata = {
                     },
                     "pid": {
                       "type": "constant",
-<<<<<<< HEAD
-                      "value": 18319
-=======
-                      "value": 2318
->>>>>>> Update version, add materialize
+                      "value": 8667
                     },
                     "stdin": {
                       "type": "null",
@@ -73302,6 +73562,7 @@ var packageMetadata = {
     }
   },
   "velocity:html-reporter": {},
+  "dburles:google-maps": {},
   "service-configuration": {
     "ServiceConfiguration": {
       "type": "object",

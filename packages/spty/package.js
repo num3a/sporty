@@ -27,6 +27,7 @@ Package.onUse(function(api) {
     'num3a:spty-payment',
     'num3a:spty-share',
     'num3a:spty-workout',
+      'num3a:spty-map'
   ],['client','server']);
   
   api.export('SPTY', ['client','server']);

@@ -13,5 +13,5 @@ Tinytest.add('[SPTY] SPTY sub namespace are not null',function(test) {
     test.isNotNull(SPTY.Payment);
     test.isNotNull(SPTY.Notification);
     test.isNotNull(SPTY.Share);
-    
+    test.isNotNull(SPTY.Map);
 });

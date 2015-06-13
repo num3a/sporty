@@ -10,3 +10,8 @@ App.info({
 App.accessRule('http://meteor.local/*');
 App.accessRule('http://178.62.127.71/*');
 App.accessRule('http://placehold.it/*');
+
+Cordova.depends({
+    "phonegap-googlemaps-plugin": "https://github.com/wf9a5m75/phonegap-googlemaps-plugin/tarball/ac35f0aef"
+});
+
