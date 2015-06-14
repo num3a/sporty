@@ -7107,7 +7107,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "e5cf9901b02da33dab0b35f2cb3d34130cb981e3"
+                  "value": "2d31de60598489c9d4c4375f9b957c714e002be3"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7122,7 +7122,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "4e02e3be4732ce03e78859bac1833ee2ae69c31f"
+                  "value": "8898a719ec6a58009ad6a5cdae374d5d4b660e38"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "undefined"
@@ -7901,15 +7901,15 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "b00329cfb6e108f674e2161b23c78bae44f15a05"
+          "value": "8c911c4e35cb3f7fa7d13324b4116b58ca4395ad"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
-          "value": "0832520a8e75461c1d811c55b16aab5d9967bbe4"
+          "value": "a72cbdf663c2c0bbf920119677dc4eec532389e8"
         },
         "autoupdateVersionCordova": {
           "type": "constant",
-          "value": "4e02e3be4732ce03e78859bac1833ee2ae69c31f"
+          "value": "8898a719ec6a58009ad6a5cdae374d5d4b660e38"
         },
         "appId": {
           "type": "constant",
@@ -12421,12 +12421,12 @@ var packageMetadata = {
                 "metricsByMinute": {
                   "type": "object",
                   "members": {
-                    "1434201540000": {
+                    "1434320640000": {
                       "type": "object",
                       "members": {
                         "startTime": {
                           "type": "constant",
-                          "value": 1434201576486
+                          "value": 1434320650447
                         },
                         "pubs": {
                           "type": "object",
@@ -12555,7 +12555,7 @@ var packageMetadata = {
               "members": {
                 "startTime": {
                   "type": "constant",
-                  "value": 1434201576471
+                  "value": 1434320650437
                 },
                 "newSessions": {
                   "type": "constant",
@@ -12598,7 +12598,7 @@ var packageMetadata = {
                 },
                 "startTime": {
                   "type": "constant",
-                  "value": 1434201576472
+                  "value": 1434320650437
                 },
                 "maxErrors": {
                   "type": "constant",
@@ -73416,11 +73416,11 @@ var packageMetadata = {
                 },
                 "pid": {
                   "type": "constant",
-                  "value": 18511
+                  "value": 992
                 },
                 "fout": {
                   "type": "constant",
-                  "value": 40
+                  "value": 41
                 },
                 "child": {
                   "type": "object",
@@ -73439,7 +73439,7 @@ var packageMetadata = {
                     },
                     "pid": {
                       "type": "constant",
-                      "value": 18511
+                      "value": 992
                     },
                     "stdin": {
                       "type": "null",

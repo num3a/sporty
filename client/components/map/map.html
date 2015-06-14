@@ -1,10 +1,5 @@
 <template name="map">
-<h1>Map</h1>
-    <div id="map_canvas">
-        <div id="searchBox">
-            <input type="text" id="query" size="30" />
-            <button id="searchBtn">Search</button>
-        </div>
+    <div class="map-container">
+        {{> googleMap name="map" options=mapOptions}}
     </div>
-
 </template>
