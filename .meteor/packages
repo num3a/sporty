@@ -30,17 +30,11 @@ cfs:ui
 
 materialize:materialize
 useraccounts:core
-
 useraccounts:materialize
-
-#useraccounts:bootstrap
 
 matteodem:easy-search
 
 fezvrasta:bootstrap-material-design
-
-sanjo:jasmine
-velocity:html-reporter
 
 #num3a:spty
 dburles:google-maps
