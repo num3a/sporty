@@ -22,7 +22,9 @@ iron:router
 yasinuslu:blaze-meta
 aldeed:collection2
 aldeed:autoform
+
 meteorhacks:kadira
+meteorhacks:kadira-profiler
 
 cfs:standard-packages
 cfs:autoform
@@ -38,3 +40,6 @@ fezvrasta:bootstrap-material-design
 
 #num3a:spty
 dburles:google-maps
+
+msavin:mongol
+msavin:jetsetter
