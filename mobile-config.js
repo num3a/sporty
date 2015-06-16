@@ -16,6 +16,9 @@ App.accessRule('*.googleapis.com/*');
 App.accessRule('*.gstatic.com/*');
 App.accessRule('https://enginex.kadira.io/*');
 
+/*
 App.configurePlugin("plugin.google.maps", {
     "API_KEY_FOR_ANDROID":"AIzaSyCRvS-Av2DibdqCZD4pK7rDFYFOd-f-vts"
 });
+
+*/

@@ -8,7 +8,7 @@
   <nav>
     <!-- Top navigation-->
     <div class="nav-wrapper">
-    <a href="#!" class="brand-logo">Sporty</a>
+    <a href="{{pathFor 'home'}}" class="brand-logo">Sporty</a>
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     
       <ul class="right hide-on-med-and-down">
@@ -27,7 +27,9 @@
     
     <!-- Side navigation-->
       <ul class="side-nav" id="mobile-demo">
-        {{#if currentUser}}
+          <li><a href="{{ pathFor 'home' }}">Home</a></li>
+
+          {{#if currentUser}}
         <li><span class="red lighten-1">
            {{getAdressToString currentUser.emails }}
         </span>
