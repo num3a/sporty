@@ -5,8 +5,8 @@ Coaches.searchByActivity = function(activity) {
         limit: 30
     });
 };
-/*
+
 Coaches.initEasySearch(['activity'], {
     'limit' : 20,
     'use' : 'mongo-db'
-});*/
+});

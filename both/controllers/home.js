@@ -5,7 +5,8 @@ HomeController = AppController.extend({
   },
 
     data: {
-        coaches: Coaches.find({})
+        coaches: Coaches.find({}),
+        defaultCoaches: Coaches.find({})
     },
 });
 
