@@ -31,7 +31,7 @@ Meteor.startup(function() {
 
     if (Coaches.find({}).count() === 0) {
 
-        _(100).times(function(n) {
+        _(1000).times(function(n) {
             Factory.create('coaches');
         });
 
