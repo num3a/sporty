@@ -1,4 +1,4 @@
-Meteor.subscribe('Coaches.Limit',100);
+//Meteor.subscribe('Coaches.Limit',100);
 
 Template.home.helpers({
     workouts: function(){

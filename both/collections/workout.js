@@ -5,3 +5,7 @@ Workouts.findWithLimit = function(limit){
     
     return Workouts.find({}, {limit:limit});
 };
+
+Workouts.findByCoachId = function(coachId){
+    return Workouts.find({coachId: coachId})
+}

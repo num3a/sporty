@@ -26,6 +26,9 @@ Meteor.startup(function() {
         },
         rating: function() {
             return _.random(1, 5);
+        },
+        resume : function(){
+            return Fake.paragraph();
         }
     });
 

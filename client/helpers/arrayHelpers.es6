@@ -1,4 +1,4 @@
-Template.registerHelper('getAdressToString', (array) => {
+Template.registerHelper('getAdressToString2', (array) => {
   check(array,[Match.Any]);
     if(array.length > 0){
         var result = array[0];
