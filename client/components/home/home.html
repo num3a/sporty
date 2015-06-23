@@ -9,7 +9,7 @@
     </div>
     <div class="container">
         <div class="row">
-            {{#each defaultCoaches}}
+            {{#each coaches}}
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
@@ -29,28 +29,5 @@
 
         </div>
     </div>
-    <div>
-        {{> esInput index="coaches" placeholder="Search..." }}
-    </div>
-    <div class="collection">
 
-        {{#ifEsInputIsEmpty index="coaches"}}
-            <div>We got following documents to search for.</div>
-            {{#each defaultCoaches}}
-                <a href="/coach/{{_id}}" class="collection-item">{{firstName}} {{lastName}}
-                    {{#each activity}}
-                        <button>{{this}}</button>
-                    {{/each}}</a>
-            {{/each}}
-        {{else}}
-
-            {{#esEach index="coaches"}}
-                <a href="/coach/{{_id}}" class="collection-item">{{firstName}} {{lastName}} {{> listActivities activity}}
-                    {{#each activity}}
-                        <button>{{this}}</button>
-                    {{/each}}</a>
-            {{/esEach}}
-            {{> esLoadMoreButton index="coaches"}}
-        {{/ifEsInputIsEmpty}}
-    </div>
 </template>

@@ -4,7 +4,6 @@ Meteor.startup(function() {
     Factory.define('workouts', Workouts, {
 
         coachId: function(){
-            debugger;
             var coachesCount = Coaches.find().count();
 
             var random = _.random(1, coachesCount);
@@ -17,10 +16,10 @@ Meteor.startup(function() {
         activity : 'running',
 
         beginDate : function(){
-            return new moment().add(_.random(1, 15), 'days').format();
+            return new moment().add(_.random(1, 15), 'days').toDate();
         },
         endDate : function(){
-            return new moment().add(_.random(15, 30), 'days').format();
+            return new moment().add(_.random(15, 30), 'days').toDate();
         },
         description: function(){
             return Fake.paragraph();
@@ -38,6 +37,7 @@ Meteor.startup(function() {
     if (Workouts.find({}).count() === 0) {
 
         _(100).times(function(n) {
+
             Factory.create('workouts');
         });
 

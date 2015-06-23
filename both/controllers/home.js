@@ -1,12 +1,16 @@
 HomeController = AppController.extend({
 
-  waitOn: function () {
-      return [Meteor.subscribe('Coaches.Limit', 30),
-      Meteor.subscribe('Workouts.Limit',100)];
-  },
+    waitOn: function () {
+        return [
+            Meteor.subscribe('Coaches.Limit', 100),
+            Meteor.subscribe('Workouts.Limit',100),
+            Meteor.subscribe('Disponibilities.All')
+        ];
+    },
     data: {
-        coaches: Coaches.find({}),
-        defaultCoaches: Coaches.find({})
+        coaches: function(){
+            return Coaches.find({})
+        }
     },
     action : function(){
         this.render();

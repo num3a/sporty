@@ -14,3 +14,11 @@ Meteor.publish('Coaches.ByActivity',function(activity){
 Meteor.publish('Coaches.ById', function(id) {
     return  Coaches.find({_id: id});
 });
+
+
+Meteor.publish('Coaches.ByWorkouts',function(limit){
+
+    var workoutsList = Workouts.find({}, {limit:limit});
+
+
+});

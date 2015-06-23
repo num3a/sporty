@@ -30,11 +30,24 @@ Meteor.startup(function() {
         resume : function(){
             return Fake.paragraph();
         }
-    });
+    })
+        .after(function(author){
+            Disponibilities.insert({
+                coachId: author._id,
+                location: {
+                    city : 'Paris',
+                    gps : {
+                        longitude : 2.352241,
+                        latitude : 48.856638
+                    }
+                },
+                expirationDate : moment().add(_.random(60, 380), 'minutes').toDate()
+            });
+        });
 
     if (Coaches.find({}).count() === 0) {
 
-        _(1000).times(function(n) {
+        _(30).times(function(n) {
             Factory.create('coaches');
         });
 
