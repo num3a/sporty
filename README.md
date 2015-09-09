@@ -1,4 +1,4 @@
-# meteor-boilerplate
+# meteor-boilerplate [OLD PROJECT BASED ON DIFFERENTIAL TEMPLATE]
 
 A starting point for MeteorJS applications. Includes iron-router, Bootstrap 3, Font Awesome, LESS and more.
 
